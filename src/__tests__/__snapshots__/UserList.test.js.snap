@@ -1,0 +1,125 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserList.js renders error when api call fails 1`] = `
+<div>
+  <div>
+    Error loading!
+  </div>
+</div>
+`;
+
+exports[`UserList.js renders error when api call is wrong 1`] = `
+<div>
+  <div>
+    Error loading!
+  </div>
+</div>
+`;
+
+exports[`UserList.js renders loader before data is loaded 1`] = `
+<div>
+  <div>
+    Loading...
+  </div>
+</div>
+`;
+
+exports[`UserList.js renders users data with success api call 1`] = `
+<div>
+  <div
+    style="display: flex; flex-wrap: wrap;"
+  >
+    <div
+      style="border: 1px solid #ccc; padding: 15px; margin: 15px;"
+    >
+      <img
+        alt="Eve"
+        src="https://s3.amazonaws.com/uifaces/faces/twitter/marcoramires/128.jpg"
+        width="80"
+      />
+      <h2>
+        Eve
+         
+        Holt
+      </h2>
+      <a
+        href="mailto:eve.holt@reqres.in"
+      >
+        eve.holt@reqres.in
+      </a>
+    </div>
+    <div
+      style="border: 1px solid #ccc; padding: 15px; margin: 15px;"
+    >
+      <img
+        alt="Charles"
+        src="https://s3.amazonaws.com/uifaces/faces/twitter/stephenmoon/128.jpg"
+        width="80"
+      />
+      <h2>
+        Charles
+         
+        Morris
+      </h2>
+      <a
+        href="mailto:charles.morris@reqres.in"
+      >
+        charles.morris@reqres.in
+      </a>
+    </div>
+    <div
+      style="border: 1px solid #ccc; padding: 15px; margin: 15px;"
+    >
+      <img
+        alt="Tracey"
+        src="https://s3.amazonaws.com/uifaces/faces/twitter/bigmancho/128.jpg"
+        width="80"
+      />
+      <h2>
+        Tracey
+         
+        Ramos
+      </h2>
+      <a
+        href="mailto:tracey.ramos@reqres.in"
+      >
+        tracey.ramos@reqres.in
+      </a>
+    </div>
+  </div>
+  <code
+    name="Paginator"
+    props="{
+  \\"responseData\\": {
+    \\"page\\": 2,
+    \\"per_page\\": 3,
+    \\"total\\": 12,
+    \\"total_pages\\": 4,
+    \\"data\\": [
+      {
+        \\"id\\": 4,
+        \\"email\\": \\"eve.holt@reqres.in\\",
+        \\"first_name\\": \\"Eve\\",
+        \\"last_name\\": \\"Holt\\",
+        \\"avatar\\": \\"https://s3.amazonaws.com/uifaces/faces/twitter/marcoramires/128.jpg\\"
+      },
+      {
+        \\"id\\": 5,
+        \\"email\\": \\"charles.morris@reqres.in\\",
+        \\"first_name\\": \\"Charles\\",
+        \\"last_name\\": \\"Morris\\",
+        \\"avatar\\": \\"https://s3.amazonaws.com/uifaces/faces/twitter/stephenmoon/128.jpg\\"
+      },
+      {
+        \\"id\\": 6,
+        \\"email\\": \\"tracey.ramos@reqres.in\\",
+        \\"first_name\\": \\"Tracey\\",
+        \\"last_name\\": \\"Ramos\\",
+        \\"avatar\\": \\"https://s3.amazonaws.com/uifaces/faces/twitter/bigmancho/128.jpg\\"
+      }
+    ]
+  }
+}"
+  />
+</div>
+`;

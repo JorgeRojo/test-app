@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App.js renders data changes 1`] = `
+<div>
+  <div
+    class="App"
+  >
+    <h1>
+      User list
+    </h1>
+    <code
+      name="UserList"
+      props="{}"
+    />
+  </div>
+</div>
+`;
+
+exports[`App.js renders data changes 2`] = `
+<div>
+  <div
+    class="App"
+  >
+    <h1>
+      this is my data
+    </h1>
+    <code
+      name="UserList"
+      props="{}"
+    />
+  </div>
+</div>
+`;
